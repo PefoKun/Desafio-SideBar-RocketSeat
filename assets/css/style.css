@@ -13,6 +13,7 @@
 	--light-grey: #dce4e3;
   --text-color: #084236;
   font-family: Poppins;
+  transition: all ease 0.5s;
 }
 
 body{
@@ -102,34 +103,43 @@ ul{
   list-style: none;
   justify-content:center;
   font-weight: 400;
-  cursor: pointer;
+  padding:0px;
+  margin:0;
+ 
  
 }
 li{
   display: flex;
-  
+  cursor: pointer;
   align-items:center;
-  padding:10px 0px;
+  margin:5px 10px;
+  padding:5px 20px;
   text-decoration: none;
 }
 li:hover{
   background-color: var(--light-green);
   border-radius:20px;
-  margin:0px 15px;
-  padding:15px 15px;
+  
+
 }
+
 li img{
-  margin-right:15px;
-  width:40px;
+  
+  width:2.5rem;
   height:auto;
   display: inline;
+
+}
+
+.menu-texts{
+  padding-left: 20px;
 }
 
 /* Pesonal Info */
 
 .user-content{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items:center;
   background-color:var(--light-green)
 }
@@ -165,8 +175,8 @@ border-radius: 50%;
 .log-out-image{
   flex:1;
   cursor: pointer;
-  margin-top: auto;
-  margin-bottom: 9px;
+  margin:auto;
+  margin-right: 30px;
 }
 .log-out-image img {
   width:1.8rem;
